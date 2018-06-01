@@ -1,0 +1,51 @@
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    android:padding="8dp"
+    tools:context=".MainActivity" >
+    
+    <Button 
+        android:id="@+id/bt_saveData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="Save Data"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"/>
+    
+    <Button 
+        android:id="@+id/bt_searchData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="Search Data"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="8dp"/>
+    
+    <Button 
+        android:id="@+id/bt_updateData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="Update Data"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="8dp"
+        />
+    
+    <Button 
+        android:id="@+id/bt_deleteData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="Delect Data"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="8dp"/>
+    
+</LinearLayout>
